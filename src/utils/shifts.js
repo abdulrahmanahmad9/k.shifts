@@ -39,7 +39,7 @@ export function getCalendarDays(year, month) {
 }
 
 export const SHIFT_CONFIG = {
-  day: { label: 'D', bg: 'bg-amber-100', text: 'text-amber-900', dot: 'bg-amber-400' },
-  night: { label: 'N', bg: 'bg-neutral-800', text: 'text-neutral-100', dot: 'bg-indigo-400' },
-  off: { label: 'O', bg: 'bg-neutral-200', text: 'text-neutral-500', dot: 'bg-neutral-400' },
+  day: { label: 'D', bg: 'bg-sky-200', text: 'text-sky-900', dot: 'bg-sky-400' },
+  night: { label: 'N', bg: 'bg-slate-600', text: 'text-white', dot: 'bg-slate-400' },
+  off: { label: 'O', bg: 'bg-gray-200', text: 'text-gray-400', dot: 'bg-gray-300' },
 }
