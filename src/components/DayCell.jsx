@@ -7,7 +7,7 @@ const DayCell = memo(function DayCell({ day, shift, isToday }) {
   return (
     <div
       className={`
-        aspect-square rounded-2xl flex flex-col items-center justify-center
+        aspect-square rounded-md flex flex-col items-center justify-center
         transition-all duration-150
         ${cfg.bg} ${cfg.text}
         ${isToday ? 'ring-2 ring-blue-500 ring-offset-1' : ''}
