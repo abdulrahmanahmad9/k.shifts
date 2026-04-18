@@ -1,6 +1,6 @@
 const BASE_CYCLE = ['day', 'night', 'off', 'off']
 
-const GROUP_OFFSETS = { A: 1, B: 2, C: 0, D: 3 }
+const GROUP_OFFSETS = { A: 1, B: 0, C: 2, D: 3 }
 
 const ANCHOR = new Date(2026, 0, 1) // Jan 1, 2026
 
